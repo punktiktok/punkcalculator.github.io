@@ -15,33 +15,33 @@
 }
 .calculator{
     background-color: #ecf0f3;
-    padding: 15px;
-    border-radius: 30px;
-    box-shadow: inset 5px 5px 12px #ffffff,
-                      5px 5px 12px rgba(0,0,0,.16);
+    padding: 30px;
+    border-radius: 45px;
+    box-shadow: inset 15px 15px 27px #ffffff,
+                      15px 15px 27px rgba(0,0,0,.16);
     display: grid;
     grid-template-columns: repeat(4,68px);
 }
 input{
     grid-column: span 4;
-    height: 70px;
-    width: 260px;
+    height: 100px;
+    width: 275px;
     background-color: #ecf0f3;
-    box-shadow: inset -5px -5px 12px #ffffff,
-                inset 5px 5px 12px rgba(0,0,0,0.16);
+    box-shadow: inset -15px -55px 27px #ffffff,
+                inset 15px 15px 27px rgba(0,0,0,0.16);
     border: none;
     border-radius: 30px;
     color: rgb(70, 70, 70);
     font-size: 50px;
     text-align: end;
     margin: auto;
-    margin-top: 40px;
-    margin-bottom: 30px;
-    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    padding: 35px;
 }
 button{
-    height: 48px;
-    width: 48px;
+    height: 53px;
+    width: 53px;
     background-color: #ecf0f3;
     box-shadow: -5px -5px 12px #ffffff,
                     5px 5px 12px rgba(0,0,0,0.16);
@@ -51,10 +51,24 @@ button{
     font-size: 16px;
 }
 .equal{
-    width: 115px;
+    width: 260px;
     border-radius: 40px;
     background-color: #ecf0f3;
     box-shadow: -5px -5px 12px #ffffff,
                     5px 5px 12px rgba(0,0,0,0.16);
 }
 
+body{
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 414px) {
+    .calculator{
+        visibility: collapse;
+    }
+    
+    .container{
+        visibility: visible;
+    }
+}
