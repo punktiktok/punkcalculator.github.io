@@ -62,13 +62,3 @@ body{
     display: flex;
     justify-content: center;
 }
-
-@media only screen and (max-width: 414px) {
-    .calculator{
-        visibility: collapse;
-    }
-    
-    .container{
-        visibility: visible;
-    }
-}
