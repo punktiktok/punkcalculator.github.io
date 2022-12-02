@@ -1,7 +1,8 @@
 <h1 align="center">Hi 👋, I'm PUNK</h1>
 <h3 align="center">A passionate frontend developer from Babgladesh</h3>
 
-<img align="right" alt="coding" width="400" sre="https://th.bing.com/th/id/R.54e37d8074ebcde1d96c77d7b2a7f310?rik=fX3JSCseIbYcKA&pid=ImgRaw&r=0">
+<img align="right" alt="coding" width="400" sre="![image](https://user-images.githubusercontent.com/119368131/205398763-9453c37e-6cf9-4546-97df-d1a9376b243a.png)
+">
 
 - 🌱 I’m currently learning **html css**
 
