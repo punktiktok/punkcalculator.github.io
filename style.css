@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ecf0f3;
+    font-family: 'Secular One', sans-serif;
+    outline: none;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    background-color: #ecf0f3;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: inset 15px 15px 27px #ffffff,
+                      15px 15px 27px rgba(0,0,0,.16);
+    display: grid;
+    grid-template-columns: repeat(4,68px);
+}
+input{
+    grid-column: span 4;
+    height: 75px;
+    width: 275px;
+    background-color: #ecf0f3;
+    box-shadow: inset -15px -55px 27px #ffffff,
+                inset 15px 15px 27px rgba(0,0,0,0.16);
+    border: none;
+    border-radius: 10px;
+    color: rgb(70, 70, 70);
+    font-size: 50px;
+    text-align: end;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    padding: 35px;
+    font-family: 'Secular One', sans-serif;
+}
+button{
+    height: 53px;
+    width: 53px;
+    background-color: #ecf0f3;
+    box-shadow: -5px -5px 12px #ffffff,
+                    5px 5px 12px rgba(0,0,0,0.16);
+    border: none;
+    border-radius: 30%;
+    margin: 10px;
+    font-size: 16px;
+    font-family: 'Secular One', sans-serif;
+    cursor: pointer;
+    overflow: hidden;
+}
+.equal{
+    width: 260px;
+    border-radius: 15px;
+    background-color: #ecf0f3;
+    box-shadow: -5px -5px 12px #ffffff,
+                    5px 5px 12px rgba(0,0,0,0.16);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    max-width: 1500px;
+    height: 100vh;
+    height: -webkit-fill-available;
+}
+
+html {
+    height: -webkit-fill-available;
+}
+
+@media(prefers-color-scheme: dark)
+
+{
+    body{
+        background-color: #000000;
+    }
+    html{
+        background-color: #000000;
+    }
+    .calculator{
+        background-color: #000000;
+        box-shadow: -5px -5px 12px #ffffff72,
+        5px 5px 12px rgba(255, 255, 255, 0.747);
+    }
+    .equal{
+        background-color: #000000;
+        box-shadow: -5px -5px 12px #ffffff72,
+        5px 5px 12px rgba(255, 255, 255, 0.747);
+    }
+    button{
+        background-color: #000000;
+        color: white;
+        box-shadow: -5px -5px 12px #ffffff72,
+        5px 5px 12px rgba(255, 255, 255, 0.747);
+    }
+    *{
+        background-color: #000000;
+        color: rgb(180, 50, 50);
+    }
+    .container{
+        background-color: #000000;
+        color: rgb(255, 0, 0);
+    }
+    input{
+        background-color: black;
+        color: rgb(255, 255, 255);
+        box-shadow: -5px -5px 12px #ffffff72,
+        5px 5px 12px rgba(255, 255, 255, 0.747);
+    }
+}
+
